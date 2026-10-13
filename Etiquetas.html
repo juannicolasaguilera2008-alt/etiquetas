@@ -1,0 +1,295 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El increíble mundo de Gumball</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5ff;
+            margin: 0;
+            color: #222;
+        }
+
+        header {
+            background-color: #168bd2;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 950px;
+            margin: auto;
+            padding: 15px;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        img, video {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #bde4ff;
+        }
+
+        button {
+            background-color: #168bd2;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="inicio">
+        <h1>El increíble mundo de Gumball</h1>
+        <p>¡Bienvenido a las aventuras de Gumball y Darwin en Elmore!</p>
+    </header>
+
+    <nav>
+        <a href="#personajes">Personajes</a>
+        <a href="#imagen">Imagen</a>
+        <a href="#video">Video</a>
+        <a href="#audio">Audio</a>
+        <a href="#tabla">Tabla</a>
+        <a href="#formulario">Formulario</a>
+    </nav>
+
+    <main>
+
+        <section id="personajes">
+            <h2>1. Personajes principales</h2>
+
+            <p>
+                Gumball es un gato azul que vive divertidas aventuras
+                con su familia y sus amigos.
+            </p>
+
+            <ul>
+                <li>Gumball Watterson</li>
+                <li>Darwin Watterson</li>
+                <li>Anais Watterson</li>
+                <li>Nicole Watterson</li>
+                <li>Richard Watterson</li>
+            </ul>
+        </section>
+
+```html
+<section id="imagen">
+    <h2>2. Imagen de Gumball</h2>
+
+    <p>¡Aquí está Gumball!</p>
+
+    <img
+        src="https://static.wikia.nocookie.net/elincreiblemundodegumball/images/c/c0/Season_3_Gumball.png/revision/latest/scale-to-width-down/200?cb=20230130180958&path-prefix=es"
+        alt="Gumball Watterson, el gato azul"
+        width="200"
+        style="display: block; margin: 20px auto;">
+
+</section>
+```
+
+        ```html
+<section id="video">
+    <h2>3. Video de Gumball</h2>
+
+    <p>¡Mira este video de El increíble mundo de Gumball!</p>
+
+    <div style="text-align: center;">
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/y7fSUS0LiHk"
+            title="Video de Gumball"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            style="max-width: 100%;">
+        </iframe>
+    </div>
+</section>
+```
+
+        <section id="audio">
+            <h2>4. Audio de ejemplo</h2>
+
+            <p>
+                Este reproductor reproduce un sonido de ejemplo.
+                Puedes presionar el botón de reproducción.
+            </p>
+
+            <audio controls>
+                <source
+                    src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                    type="audio/mpeg">
+                Tu navegador no puede reproducir este audio.
+            </audio>
+
+            <p>
+                Nota: este es un audio musical de ejemplo, no la música
+                oficial de Gumball. Necesitas conexión a internet.
+            </p>
+        </section>
+
+        <section id="tabla">
+            <h2>5. Tabla de personajes</h2>
+
+            <table>
+                <tr>
+                    <th>Personaje</th>
+                    <th>Especie</th>
+                    <th>Color</th>
+                </tr>
+
+                <tr>
+                    <td>Gumball</td>
+                    <td>Gato</td>
+                    <td>Azul</td>
+                </tr>
+
+                <tr>
+                    <td>Darwin</td>
+                    <td>Pez</td>
+                    <td>Naranja</td>
+                </tr>
+
+                <tr>
+                    <td>Anais</td>
+                    <td>Coneja</td>
+                    <td>Rosa</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>6. Pasos para disfrutar la serie</h2>
+
+            <ol>
+                <li>Abre tu plataforma de streaming.</li>
+                <li>Busca El increíble mundo de Gumball.</li>
+                <li>Selecciona un episodio disponible.</li>
+                <li>¡Disfruta las aventuras en Elmore!</li>
+            </ol>
+        </section>
+
+        <section id="formulario">
+            <h2>7. ¿Cuál es tu personaje favorito?</h2>
+
+            <form id="formularioGumball">
+                <label for="nombre">Escribe tu nombre:</label>
+                <br>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Tu nombre"
+                    required>
+
+                <br><br>
+
+                <label for="personaje">Elige tu personaje favorito:</label>
+                <br>
+
+                <select id="personaje" name="personaje">
+                    <option value="Gumball">Gumball</option>
+                    <option value="Darwin">Darwin</option>
+                    <option value="Anais">Anais</option>
+                    <option value="Nicole">Nicole</option>
+                    <option value="Richard">Richard</option>
+                </select>
+
+                <br><br>
+
+                <button type="submit">Enviar respuesta</button>
+            </form>
+
+            <p id="resultado"></p>
+        </section>
+
+        <section>
+            <h2>8. Enlace externo</h2>
+
+            <p>
+                Aprende más sobre HTML visitando
+                <a href="https://www.w3schools.com/html/" target="_blank">
+                    W3Schools
+                </a>.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Página educativa de Gumball</p>
+        <p>Proyecto básico de HTML, CSS y JavaScript.</p>
+    </footer>
+
+    <script>
+        const formulario = document.getElementById("formularioGumball");
+
+        formulario.addEventListener("submit", function(evento) {
+            evento.preventDefault();
+
+            const nombre = document.getElementById("nombre").value;
+            const personaje = document.getElementById("personaje").value;
+
+            document.getElementById("resultado").textContent =
+                "¡Hola, " + nombre +
+                "! Tu personaje favorito es " + personaje + ".";
+        });
+    </script>
+
+</body>
+</html>
+```
